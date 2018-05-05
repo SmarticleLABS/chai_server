@@ -13,7 +13,7 @@ type UserCredentials struct {
 }
 
 func index(ctx *fasthttp.RequestCtx) {
-	fmt.Fprint(ctx, "Welcome!\n")
+	fmt.Fprint(ctx, "Welcome Chai!\n")
 }
 
 func hello(ctx *fasthttp.RequestCtx) {
